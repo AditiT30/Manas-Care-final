@@ -1,6 +1,6 @@
 'use client';
 
-import { Heart, Music, BookOpen, Play, BarChart3, Wind , Bot , Vault ,HeartPlus,BookHeart  } from 'lucide-react';
+import {  BarChart3, Wind , Bot , Vault ,HeartPlus,BookHeart  } from 'lucide-react';
 import FeatureCard from './Card';
 
 const features = [

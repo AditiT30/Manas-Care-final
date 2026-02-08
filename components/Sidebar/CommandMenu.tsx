@@ -1,7 +1,7 @@
 // from cmdk react package
 import { Command } from 'cmdk'
-import React, {Dispatch, SetStateAction, useEffect, useState} from "react";
-import { FiEye, FiLink, FiLogOut, FiPhone, FiPlus } from "react-icons/fi";
+import React, {Dispatch, SetStateAction, useState} from "react";
+import { FiEye, FiLink, FiLogOut, FiPhone } from "react-icons/fi";
 
 export const CommandMenu = ({open,
     setOpen,

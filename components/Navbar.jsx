@@ -1,8 +1,7 @@
 import React from 'react';
-import { ButtonDemo} from "./Button";
 import {ButtonLink} from "./link-button";
 import Link from "next/link";
-import {Dropdown, DropdownMenuRadioGroupDemo} from "./dropdown";
+import {Dropdown} from "./dropdown";
 
 const Navbar = () => {
     return (

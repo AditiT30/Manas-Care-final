@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Heart, Brain, Shield, Activity, Users } from 'lucide-react';
+import { User, Heart, Brain, Shield, Activity, Users, type LucideIcon } from 'lucide-react';
 
 // Card Component
 
@@ -7,11 +7,10 @@ interface ResourceCardProps {
     icon: LucideIcon;
     title: string;
     description: string;
-    link: string;
+    link?: string;
     linkText: string;
 }
-
-const ResourceCard = ({ icon: Icon, title, description,link, linkText }) => {
+const ResourceCard = ({ icon: Icon, title, description, link, linkText }: ResourceCardProps) => {
     return (
         <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-200 border border-gray-100">
             <div className="flex items-start space-x-4">
