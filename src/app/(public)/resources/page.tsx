@@ -166,7 +166,7 @@ export default function ResourcesPage() {
                         Resources
                     </h1>
                     <p className="text-teal-100 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-                        Discover tools and information to support your mental wellness journey. We've curated helpful resources for various conditions.
+                        Discover tools and information to support your mental wellness journey. We have curated helpful resources for various conditions.
                     </p>
                 </div>
             </div>
