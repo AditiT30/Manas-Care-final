@@ -30,9 +30,8 @@ export default function CounsellorBooking() {
 
     // Load saved bookings & counsellors from localStorage
     useEffect(() => {
-        const savedBookings = JSON.parse(localStorage.getItem("bookings")) || [];
-        const savedCounsellors =
-            JSON.parse(localStorage.getItem("counsellors")) || initialCounsellors;
+        const savedBookings = JSON.parse(localStorage.getItem("bookings") ?? "[]");
+        const savedCounsellors = JSON.parse(localStorage.getItem("counsellors") ?? JSON.stringify(initialCounsellors));
 
         setBookings(savedBookings);
         setCounsellors(savedCounsellors);
